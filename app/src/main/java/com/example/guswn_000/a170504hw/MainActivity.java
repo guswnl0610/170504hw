@@ -249,8 +249,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-
-    //
+    //Go 버튼 누르면 에딧텍스트에 입력한 주소로 이동함
     public void onClick(View v)
     {
         if (v.getId() == R.id.button)

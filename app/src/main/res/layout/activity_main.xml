@@ -31,12 +31,12 @@
             <Button
 
                 android:id="@+id/button"
-                android:layout_width="wrap_content"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
-                android:background="#fdc77c"
+                android:background="#7cc5fd"
                 android:onClick="onClick"
                 android:text="GO"
                 android:textColor="#ffffff" />
