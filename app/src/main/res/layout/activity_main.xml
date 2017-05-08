@@ -9,7 +9,6 @@
     <LinearLayout
         android:focusable="true"
         android:focusableInTouchMode="true"
-        android:id="@+id/biglinear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -22,9 +21,9 @@
 
             <EditText
                 android:id="@+id/editText"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPostalAddress" />
@@ -32,10 +31,10 @@
             <Button
 
                 android:id="@+id/button"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:background="#fdc77c"
                 android:onClick="onClick"
@@ -45,12 +44,19 @@
 
         </LinearLayout>
 
-        <WebView
-            android:id="@+id/WebView"
+        <LinearLayout
+            android:id="@+id/biglinear"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        </WebView>
+            <WebView
+                android:id="@+id/WebView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </WebView>
+        </LinearLayout>
 
     </LinearLayout>
 
