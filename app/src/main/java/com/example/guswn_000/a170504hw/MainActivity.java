@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity
         if(item.getItemId() == 1)
         {
 //            urllayout.setAnimation(animtop);
-            animtop.start();
+//            animtop.start();
             biglayout.setVisibility(View.INVISIBLE);
             urllayout.setVisibility(View.INVISIBLE);
             listView.setVisibility(View.VISIBLE);
